@@ -1,2 +1,4 @@
 # ArabicToTaatik
- A small websiter to change arabic letters to same hebrew letters.
+
+A small website that help you change arabic letters to there phonetic similar hebrew letters.
+based on the Madrasa's guide for hebrew letters arabic transcription.

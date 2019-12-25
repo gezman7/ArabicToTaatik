@@ -1,0 +1,21 @@
+.mainFrame {
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.headerContainer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+textarea {
+  text-align: right;
+  flex-basis: 35%;
+  min-height: 300px;
+  max-height: 1000px;
+}
+
+h {
+  font-size: xx-large;
+}
