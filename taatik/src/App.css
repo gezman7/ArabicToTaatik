@@ -9,6 +9,17 @@
   display: flex;
   justify-content: center;
 }
+
+.wordBox {
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.wordElem {
+  margin: 2px;
+}
 textarea {
   text-align: right;
   flex-basis: 35%;
