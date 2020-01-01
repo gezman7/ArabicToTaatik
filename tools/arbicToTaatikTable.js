@@ -44,8 +44,8 @@ const hashToTaatik = {
   "62e": ["5e8", "5f3"] /*  'خ ר  */ /* special treatment */,
   "636": ["5e6", "5f3"] /*  'ض צ  */ /* special treatment */,
   "62b": ["5ea", "5f3"] /*  'ض צ  */ /* special treatment */,
-  "62c": ["5d2", "5f3"] /* 'ج  ג   */ /* special treatment */,
-  "638": ["5e6", "5f3"] /*  'ظ צ  */ /* special treatment */,
+  "62c": ["5d2", "5f3"] /*  'ج ג  */ /* special treatment */,
+  "638": ["5d8", "5f3"] /*  'ظ ט  */ /* special treatment */,
   "63a": ["5e2", "5f3"] /*  'غ ע  */ /* special treatment */,
   "625": ["5d0", "5c5"] /*  'غ ע  */ /* special treatment */
 
@@ -58,6 +58,13 @@ const hashToTaatik = {
 
   */
 };
+
+const finalFormLetters = {
+  "646": "5df" /*ن ן */,
+  "645": "5dd" /*  م מ  */,
+  "635": "5e5" /* ص צ */,
+  "636": ["5e5", "5f3"] /*  'ض צ  */ /* special treatment */,
+}
 const specialArabicCode = ["62e", "630", "636", "62c", "5e6", "63a", "625"];
 
 /*
