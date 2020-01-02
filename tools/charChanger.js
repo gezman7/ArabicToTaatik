@@ -40,6 +40,8 @@ function arabicToTaatik(input) {
   let thisLetter = "";
   for (let index in input) {
     thisLetter = input.charCodeAt(index).toString(16);
+    if (index === input.length - 1)
+      console.log(`${thisLetter} is final letter`);
     output = output.concat(CharArabicToTaatik(thisLetter));
   }
   return output;
