@@ -40,6 +40,16 @@ const hashToTaatik = {
   "20": "20" /* space */,
   "64e": "5bb" /*   */,
 
+  //punctuation
+  "64e": "5b7", //fatha to patach
+  "650": "5c5", //kasra to chirik 
+  "64f": "5bb",  //damma to kibutz
+  "652": "5b0", //sukun to shva
+  "64b": "", //tanween fatha
+  "64c": "", //tanween damma
+  "64d": "", //tanween kasra
+  //punctuation
+
   "630": ["5d3", "5f3"] /*  'ذ ד  */ /* special treatment */,
   "62e": ["5e8", "5f3"] /*  'خ ר  */ /* special treatment */,
   "636": ["5e6", "5f3"] /*  'ض צ  */ /* special treatment */,
@@ -61,9 +71,9 @@ const hashToTaatik = {
 
 const finalFormLetters = {
   "646": "5df" /*ن ן */,
-  "645": "5dd" /*  م מ  */,
-  "635": "5e5" /* ص צ */,
-  "636": ["5e5", "5f3"] /*  'ض צ  */ /* special treatment */,
+  "645": "5dd" /*  م ם  */,
+  "635": "5e5" /* ص ץ */,
+  "636": ["5e5", "5f3"] /*  'ض ץ  */ /* special treatment */
 }
 const specialArabicCode = ["62e", "630", "636", "62c", "5e6", "63a", "625"];
 
