@@ -38,7 +38,7 @@ const hashToTaatik = {
   "64b": "5df" /* ן ,ً  */,
   "61f": "61f" /*  ؟ */,
   "20": "20" /* space */,
-  "64e": "5bb" /*   */,
+  // "64e": "5bb" /*   */,
 
   //punctuation
   "64e": "5b7", //fatha to patach
@@ -48,6 +48,8 @@ const hashToTaatik = {
   "64b": "", //tanween fatha
   "64c": "", //tanween damma
   "64d": "", //tanween kasra
+  "651": "651", //shadda
+
   //punctuation
 
   "630": ["5d3", "5f3"] /*  'ذ ד  */ /* special treatment */,
